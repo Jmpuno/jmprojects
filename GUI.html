@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GWA calculator</title>
+    <link rel="stylesheet" href="Design.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="wholeContainer">
+        <div class="headTitle">GWA calculator</div>
+   
+        <div class="body">
+            <div id="inst-container">
+                <button id="instrct-btn">?</button>
+                <div id="instruction">
+                    <span class="instruction-title">Instructions:</span><br>
+
+                    step 1: Type your final ratings per subject(type your grade individualy).<br>
+                    step 2: click the plus button (+) to add it the grade you type in the input box and add it to calculations.<br>
+                    step 3 : repeat step 1 & 2 until you finish adding all your final ratings in all of your subjects you've had taken.<br>
+                    step 4:  click calculate GWA to finally obtain your GWA.
+                </div>
+
+            </div>
+
+            
+            <input type="text" id="inputBox" placeholder="Type all your final ratings here...">
+            <button id="add">+</button>
+            <button id="calButton">calculate GWA</button>
+
+        </div>
+        
+        <div id="solutionBox">
+
+            <div id="solution-title">Check here all the grades you inputs: </div>
+           <div id="gif"></div>
+            <div id="subj1" class="subj"></div>
+            <div id="underline"></div>
+           <div id="solution-subtitle">Your GWA is: </div>
+            <div id="result" class="result"></div>
+
+        </div>
+            
+
+
+    </div>
+
+
+
+</body>
+
+<script src="Functionality.js"></script>
+</html>
