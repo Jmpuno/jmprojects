@@ -1,0 +1,243 @@
+
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+
+
+.wholeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+    height: 100vh;
+    width: 90%;
+    
+
+    /* position */
+    position:relative;
+    left: 5%;
+}
+
+.headTitle{
+
+    /* title shape and design */
+    height: 8%;
+    width: 45%;
+    border-radius: 15px;
+    background-color: #ffbcd9;
+
+    /* title text styles */
+
+    color: white;
+    text-align: center;
+    font-family: 'Tektur', cursive;
+    font-size: 250%;
+    font-weight: 700;
+
+    /* magins and positions */
+    position: absolute;
+    top: 10px;
+    margin: 10px;
+}
+
+#inst-container{
+    position: relative;
+    display: inline-block;
+    
+}
+
+#instrct-btn{
+    position: relative;
+    border-radius: 15px;
+    right: 325px;
+}
+
+#inst-container:hover #instruction{
+    display: block;
+
+}
+
+#instruction{
+    display: none;
+    overflow: auto;
+    position: absolute;
+    top: 1px;
+    right: -78px;
+    background-color:#A0D9EF;
+    width: 400px;
+
+    border: solid 3px black;
+    border-radius: 10px;
+
+    padding: 10px;
+
+  
+    text-decoration: none;
+
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+
+    
+}
+
+.instruction-title{
+    color: white;
+}
+
+#gif{
+    background-image: url(https://gifdb.com/images/high/adorable-white-cat-typing-on-keyboard-mcx89p34ojfj25fh.webp);
+    background-size: cover;
+
+    height: 370px;
+    width: 300px;
+
+    position: absolute;
+    top: 50px;
+}
+
+.body{
+   
+    /* shape and design */
+    
+    height: 55%;
+    width: 65%;
+    display: flex;
+    
+    /* magins and positions */
+    position: relative;
+    top: 2%;
+    align-items: center;
+    right: -3%;
+    
+}
+
+#inputBox{
+
+    /* shape and design */
+    border-radius: 10px;
+    width: 50%;
+    height: 15%;
+    display: flex;
+
+
+    font-family: 'VT323', monospace;
+    font-size: 28px;
+
+
+    position: relative;
+    left: 12%;
+}
+#add{
+    position: relative;
+    left: 13%;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+
+    
+    font-size: 20px;
+    
+
+    height: 23px;
+    width: 30px;
+    padding: 0px 0px 25px 0px;
+}
+
+#calButton{
+    position: relative;
+    left: 14%;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+
+    /* size of the button */
+    width: 110px;
+    height: 25px;
+    
+}
+
+button{
+    cursor: pointer;
+    box-shadow: 0 5px #999
+}
+
+button:active{
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+button:hover{
+    background-color:#A0D9EF;
+    color: white;
+}
+
+#solutionBox{
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 15px;
+    padding: .5%;
+    display: flex;
+    flex-direction: column;
+
+    width: 40%;
+    height: 780px;
+
+    position: relative;
+    bottom: 4%;
+
+    font-family: 'VT323', monospace;
+  
+}
+
+#solution-title{
+    font-size: 30px;
+}
+
+.subj{
+    
+    width: 40px;
+    height: 335px;
+
+    font-size: 40px;
+
+    position: absolute;
+    bottom: 75px;
+    left: 470px;
+    
+}
+
+#underline{
+    border-top: solid 4px rgb(0, 0, 0);
+    position: absolute;
+
+    bottom: 50px;
+    border-radius: 10px;
+    width: 540px;
+    height: 1px;
+    
+}
+
+#solution-subtitle{
+    position: absolute;
+    top: 420px;
+    left: 200px;
+    font-size: 50px;
+}
+
+.result{
+   
+    border: solid 4px #ffbcd9;
+    border-radius: 10px;
+
+    position: absolute;
+    right: -15px;
+    top: 410px;
+
+    width: 15%;
+    height: 40px;
+
+    margin: 15px 20px 0 5px;
+
+    font-size: 45px;
+}
